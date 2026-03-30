@@ -2,7 +2,7 @@
 word_num = 'I love my python class'
 print(len(word_num))
 
-# Function to check if two strings are anagrams
+"""Function to check if two strings are anagrams"""
 def are_anagrams(str1, str2):
     # Remove spaces and convert to lowercase for uniform comparison
     str1 = str1.replace(" ", "").lower()
@@ -25,6 +25,7 @@ else:
 #question 2
 
 import string
+"""function to check if string is a palindrome"""
 
 def is_palindrome(s):
     # Remove punctuation and spaces, and convert to lowercase
@@ -59,6 +60,7 @@ for line in file:
 file.close()
 
 #Question5
+#take input from the user
 fname = input('Enter the file name\n')
 
 # Open the existing file in read mode
